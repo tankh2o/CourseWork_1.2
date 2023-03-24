@@ -125,13 +125,11 @@ public class Main {
     public static void makeIndexSalarySetter() {
         double indexPercent = 0.13;
         for (int i = 0; i < employee.length; i++) {
-            employee[i].setSalaryEmployee((employee[i].getSalaryEmployee() * indexPercent) + employee[i].getSalaryEmployee());
-        }
+            employee[i].setSalaryEmployee((employee[i].getSalaryEmployee() * indexPercent) + employee[i].getSalaryEmployee()); }
     }
     //б) использованы сеттеры
     /*public static Employee findMaxSalaryAmongEmployeeSetter() {
         Employee  = employee[0];
         for (Employee employee)
-
 }*/
 }
